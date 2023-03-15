@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>PerspectivatorJS samples</title>
+		<script src="perspectivator.js" defer></script>
+		<style>
+		body {
+			font-family: Arial
+		}
+		div {
+			padding: 20px;
+			text-align: center;
+			vertical-align: middle;
+			font-weight: bold;
+			margin:0px auto;
+			width: 450px; 
+			height: 100px;
+		}
+		</style>
+	</head>
+<body>
+	<script>
+		window.PerspectivatorOptions = { perspectiveDistance: "200px" };
+	</script>
+	<h1><center>PerspectivatorJS samples</center></h1>
+	<table border="0" align="center" cellspacing="10">
+		<tr>
+			<td><div style="background: rgb(110, 123, 251)" class="perspective">
+			Perspective based <br/> on mouse cursor on the page <br/> or mobile orientation</div></td>
+			<td>Usage:<br/>&lt;div class="perspective"&gt;&lt;/div&gt;</td>
+		</tr>
+		<tr>
+			<td><div style="background: rgb(110, 123, 251)" class="perspectiveSelf">
+			Perspective based <br/> on mouse cursor on the item itself <br/> or mobile orientation</div></td>
+			<td>Usage:<br/>&lt;div class="perspectiveSelf"&gt;&lt;/div&gt;</td>
+		</tr>
+		<tr>
+			<td><div style="background-image: linear-gradient(109.6deg, rgb(156, 252, 248) 20%, rgb(110, 123, 251) 80%);" class="perspectiveGradient">
+			Gradient variation based <br/> on mouse cursor on the page <br/> or mobile orientation</div></td>
+			<td>Usage:<br/>&lt;div class="perspectiveGradient"&gt;&lt;/div&gt;</td>
+		</tr>
+		<tr>
+			<td><div style="background-image: linear-gradient(109.6deg, rgb(156, 252, 248) 20%, rgb(110, 123, 251) 80%);" class="perspectiveGradientSelf">
+			Gradient variation based <br/> on mouse cursor on the item itself <br/> or mobile orientation</div></td>
+			<td>Usage:<br/>&lt;div class="perspectiveGradientSelf"&gt;&lt;/div&gt;</td>
+		</tr>
+		<tr>
+			<td><div style="background-image: linear-gradient(109.6deg, rgb(156, 252, 248) 20%, rgb(110, 123, 251) 80%);" class="perspective perspectiveGradient">
+			Perspective & Gradient variation based <br/> on mouse cursor on the page <br/> or mobile orientation</div></td>
+			<td>Usage:<br/>&lt;div use class="perspective perspectiveGradient"&gt;&lt;/div&gt;</td>
+		</tr>		
+	</table>
+</body>
+</html>
