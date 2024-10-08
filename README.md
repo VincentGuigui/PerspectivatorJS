@@ -16,6 +16,10 @@ Include the script in your page either in the HEAD tag using defer or at the bot
 ```
 <script src="PerspectivatorJS.js" type="text/javascript" defer></script>
 ```
+or
+```
+<script src="https://cdn.jsdelivr.net/gh/VincentGuigui/PerspectivatorJS@1.0/perspectivator.js" type="text/javascript" defer></script>
+```
 
 ## 2. Add the right CSS class to your visual element
 
