@@ -188,4 +188,4 @@ window.Perspectivator = {
 		}
 	}
 };
-window.Perspectivator.init();
+addEventListener("DOMContentLoaded", (event) => { window.Perspectivator.init(); });
